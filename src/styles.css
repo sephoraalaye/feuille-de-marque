@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image{
+    @apply  w-5;
+   
+}
+
+.bordure{
+    @apply border-2 border-black;
+}
+
+.bordureRight{
+    @apply border-r-2 border-black ;
+}
+
+.bordureBottom{
+    @apply border-b-2 border-black ;
+
+}
+
+.ligne{
+    @apply ml-1 w-32;
+}
+
+.bordureleger{
+    @apply border border-gray-600;
+}
+
+.flexibility{
+    @apply ml-1 flex;
+}
