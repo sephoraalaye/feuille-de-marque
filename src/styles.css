@@ -31,3 +31,20 @@
 .flexibility{
     @apply ml-1 flex;
 }
+
+.watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* border: red solid 2px; */
+    width: 200%;
+    height: 50%;
+    transform: translate(-100%, -50%);
+    font-size: 150px;
+    font-weight: 300;
+    transform-origin: -2% 180%; /* Origine de la rotation */
+    transform: rotate(-45deg); /* Rotation de 45 degrés */
+    color: rgba(0, 0, 0, 0.3); /* Couleur du texte en filigrane */
+    opacity: 0.5; /* Opacité du texte en filigrane */
+    pointer-events: none; /* Empêcher le texte en filigrane d'être cliquable */
+}
